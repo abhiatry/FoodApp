@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bannerDiv{
+  width:'100%';
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.bannerImageDiv{
+/* background-color: #282c34; */
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 0 0 28vh;
+/* background-blend-mode : overlay */
+}
+
+/* .bannerImage{
+  margin-left: 5vh;
+} */
+
+/* popularPlan */
+
+.popularPlansDiv{
+
+background-color: rgb(32, 78, 32);
+padding: 2vh;
+margin: 5vh 2vh 3vh 2vh;
+}
+
+.plansDiv{
+  display: flex;
+}
+
+.loginDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90.5vh;
+  background-image: url("./Components/Public/background.jpg");
+}
+
+.loginDiv1{
+  /* background-color: rgb(230, 206, 193); */
+  width: 75vh;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginDiv2{
+  /* background-color: rgb(42, 112, 48); */
+  width: 75vh;
+  height: 75vh;
+  padding-top: 25vh;
+}
+
+
+.signupDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90.5vh;
+  background-image: url("./Components/Public/background.jpg");
+}
+
+.signupDiv1{
+  /* background-color: rgb(230, 206, 193); */
+  width: 75vh;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupDiv2{
+  /* background-color: rgb(42, 112, 48); */
+  width: 75vh;
+  height: 80vh;
+  padding-top: 25vh;
+}
+
+.plan-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+  
+}
+
+.plan-card{
+  width: 16.7vw;
+  height: 40vh;
+  margin: 1rem;
+  color: white;
+  position: relative;
+}
+
+a{
+  color: rgb(255, 203, 196);
+}
+
+.plansMenuDiv{
+  /* background-image: url('./Components/Public/background2.jpg'); */
+  height: 80vh;
+  width: 100%;
+}
+
+
+/* fresh vegetable section */
+
+.fved-cont {
+  margin-top: 4rem;
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fved-right-cont p {
+  margin-top: 2rem;
+  color : gray;
+  /* font-size: 1.5rem; */
+}
+
+
+/* chef details section */
+
+.chef-details-cont {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ padding: 2rem;
+}
+
+.chef-left-cont {
+  width : 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chef-right-cont {
+  width : 50%;
+}
+
+.chef-right-cont img {
+  height : 70%;
+  width : 70%;
+}
+
+.chef-left-cont span {
+  color : gray;
+
+}
+
+
+/* testonomial section */
+
+.testonomial-cont {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+}
+
+.left-testonomial-cont {
+  width : 50%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.left-testonomial-cont img {
+  height : 90%;
+  width : 90%;
+  padding-bottom: 8vh;
+}
+
+.right-testonomial-cont {
+  width : 50%;
+
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.card-for-testo {
+  margin-top: 1.5rem;
+  max-width: 300px;
+}
+
+/* footer */
+
+.footer-cont {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  background-image: linear-gradient(to top, #ffffff, #f8fcff, #eefafe, #e4f8f7, #e1f5e9);
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.cont span {
+  color : gray;
+  margin-top: 1rem;
+}
+
+.icon {
+  color : green;
+  background-color: #d6f3e2;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 50%;
+  margin : 1rem;
+  margin-left: 0;
+
+}
